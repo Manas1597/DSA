@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a[6];
+int n;
+int position= -1;
+int i;
+
+for(int i=0; i<6;i++){
+    cout<<a[i];
+}
+for(int i=0; i<6;i++){
+    cin>>a[i];
+}
+cout<<"enter the number in array:" ;
+cin>>n;
+for(int i=0; i<6;i++){
+if(n==a[i]){
+    position=i;
+    
+    break;
+}
+
+}
+if(position!= -1)
+{
+    
+    cout<<"element is  found";
+}
+else{
+     cout<<"element is not found";
+}
+    
+
+
+
+return 0;
+}
+
+
+
+
+
+
+
